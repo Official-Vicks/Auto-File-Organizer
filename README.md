@@ -53,6 +53,19 @@ images/image.png
 
 ---
 
+
+📌 Future Improvements
+Custom file rules via API
+File renaming logic
+Recursive directory support
+Logging system
+Web dashboard
+👨‍💻 Author
+
+Built as a practical automation project using FastAPI.
+
+---
+
 ## 🚀 Getting Started
 
 ### 1. Clone repo
@@ -81,25 +94,3 @@ POST /stop
 📊 Get Status
 
 GET /status
-
-📌 Future Improvements
-Custom file rules via API
-File renaming logic
-Recursive directory support
-Logging system
-Web dashboard
-👨‍💻 Author
-
-Built as a practical automation project using FastAPI.
-
-
----
-
-# 📦 2. REQUIREMENTS.TXT (FINAL)
-
-```txt id="1l36eg"
-fastapi
-uvicorn
-watchdog
-python-multipart
-pydantic
