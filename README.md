@@ -70,6 +70,7 @@ uvicorn app.main:app --reload
 4. Open Swagger UI
 
 http://127.0.0.1:8000/docs
+'''bash
 
 📡 API Endpoints
 ▶️ Start Organizer
