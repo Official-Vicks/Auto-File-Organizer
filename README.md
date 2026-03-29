@@ -57,10 +57,15 @@ images/image.png
 📌 Future Improvements
 
 Custom file rules via API
+
 File renaming logic
+
 Recursive directory support
-Logging system
+
 Web dashboard
+
+---
+
 👨‍💻 Author
 
 Built as a practical automation project using FastAPI.
@@ -71,7 +76,6 @@ Built as a practical automation project using FastAPI.
 
 ### 1. Clone repo
 
-```bash
 git clone https://github.com/your-username/auto-file-organizer.git
 cd auto-file-organizer
 
