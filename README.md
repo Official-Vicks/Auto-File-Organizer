@@ -32,6 +32,7 @@ report.pdf
 song.mp3
 image.png
 
+---
 
 ### After:
 
@@ -50,6 +51,20 @@ images/image.png
 - Python (os, shutil)
 
 ---
+
+📌 Future Improvements
+- Custom file rules via API
+- File renaming logic
+- Recursive directory support
+- Logging system
+- Web dashboard
+
+---
+
+👨‍💻 Author
+
+Built as a practical automation project using FastAPI.
+
 
 ## 🚀 Getting Started
 
@@ -70,7 +85,6 @@ uvicorn app.main:app --reload
 4. Open Swagger UI
 
 http://127.0.0.1:8000/docs
-'''bash
 
 📡 API Endpoints
 ▶️ Start Organizer
@@ -88,14 +102,3 @@ POST /stop
 📊 Get Status
 
 GET /status
-
-📌 Future Improvements
-- Custom file rules via API
-- File renaming logic
-- Recursive directory support
-- Logging system
-- Web dashboard
-
-👨‍💻 Author
-
-Built as a practical automation project using FastAPI.
