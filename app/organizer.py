@@ -57,7 +57,7 @@ def move_file(file_path: str, base_dir: str):
         shutil.move(file_path, target_path)
         print(f"[MOVED] {file_name} → {category}/")
 
-        with open("activity.log", "a") as f:
+        with open("activity.log", "a", encoding="utf-8") as f:
             f.write(f"Moved {file_name} → {category}\n")
     except Exception as e:
         print(f"[ERROR] {e}")
