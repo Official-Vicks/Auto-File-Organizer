@@ -1,6 +1,6 @@
-# Auto-File-Organizer
-An event-driven file automation API that monitors directories and organizes files in real-time using FastAPI and watchdog
+# 🚀 Auto File Organizer API
 
+A FastAPI-based automation service that **automatically organizes files in a directory in real-time**.
 
 ---
 
@@ -27,7 +27,6 @@ An event-driven file automation API that monitors directories and organizes file
 
 ### Before:
 
-
 downloads/
 report.pdf
 song.mp3
@@ -35,7 +34,6 @@ image.png
 
 
 ### After:
-
 
 downloads/
 documents/report.pdf
@@ -53,46 +51,26 @@ images/image.png
 
 ---
 
-
-📌 Future Improvements
-
-Custom file rules via API
-
-File renaming logic
-
-Recursive directory support
-
-Web dashboard
-
----
-
-👨‍💻 Author
-
-Built as a practical automation project using FastAPI.
-
----
-
 ## 🚀 Getting Started
 
 ### 1. Clone repo
 
+```bash
 git clone https://github.com/your-username/auto-file-organizer.git
 cd auto-file-organizer
 
----
-
 2. Install dependencies
+
 pip install -r requirements.txt
 
----
-
 3. Run server
+
 uvicorn app.main:app --reload
 
----
-
 4. Open Swagger UI
+
 http://127.0.0.1:8000/docs
+
 📡 API Endpoints
 ▶️ Start Organizer
 
@@ -101,6 +79,7 @@ POST /start
 {
   "directory": "C:/Users/YourName/Downloads"
 }
+
 ⏹️ Stop Organizer
 
 POST /stop
@@ -108,3 +87,14 @@ POST /stop
 📊 Get Status
 
 GET /status
+
+📌 Future Improvements
+- Custom file rules via API
+- File renaming logic
+- Recursive directory support
+- Logging system
+- Web dashboard
+
+👨‍💻 Author
+
+Built as a practical automation project using FastAPI.
