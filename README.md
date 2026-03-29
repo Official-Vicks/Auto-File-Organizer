@@ -55,6 +55,7 @@ images/image.png
 
 
 📌 Future Improvements
+
 Custom file rules via API
 File renaming logic
 Recursive directory support
@@ -73,10 +74,19 @@ Built as a practical automation project using FastAPI.
 ```bash
 git clone https://github.com/your-username/auto-file-organizer.git
 cd auto-file-organizer
+
+---
+
 2. Install dependencies
 pip install -r requirements.txt
+
+---
+
 3. Run server
 uvicorn app.main:app --reload
+
+---
+
 4. Open Swagger UI
 http://127.0.0.1:8000/docs
 📡 API Endpoints
